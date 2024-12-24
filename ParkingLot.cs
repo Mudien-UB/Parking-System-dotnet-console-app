@@ -9,7 +9,7 @@ public class ParkingLot
 
     public ParkingLot(int totalSlots) {
         _totalSlots = totalSlots;
-        _slots = new Vehicle[totalSlots]; // Inisialisasi array slot dengan ukuran totalSlots
+        _slots = new Vehicle[totalSlots];
     }
 
     public string ParkVehicle(Vehicle vehicle) {
